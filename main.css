@@ -114,3 +114,16 @@ body {
     line-height: 1.8;
     margin-bottom: 30px; 
 }
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-box {
+    background: #6c63ff;
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px; 
+}
