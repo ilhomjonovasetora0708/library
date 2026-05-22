@@ -176,3 +176,29 @@ body {
     color: white;
     cursor: pointer; 
 }
+.services {
+    background: linear-gradient(135deg, #6c63ff, #9b59ff);
+    padding: 100px 0;
+}
+
+.white {
+    color: white;
+}
+
+.service-boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.service {
+    background: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
