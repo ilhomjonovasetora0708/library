@@ -46,3 +46,47 @@ body {
  nav a:hover {
      color: #6c63ff; 
 }
+.hero {
+    background: linear-gradient(135deg, #6c63ff, #9b59ff);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-text h2 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px; 
+}
+.hero button {
+    padding: 15px 35px;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: #6c63ff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+}
+
+.hero img {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+}
