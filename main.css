@@ -244,3 +244,23 @@ textarea {
 textarea {
     height: 180px; 
 }
+form button {
+    padding: 18px;
+    border: none;
+    border-radius: 12px;
+    background: #6c63ff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h2 {
+    margin-bottom: 10px; 
+}
