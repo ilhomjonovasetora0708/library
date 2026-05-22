@@ -90,3 +90,27 @@ body {
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
 }
+.about {
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.about-text h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 30px; 
+}
