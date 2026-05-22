@@ -159,3 +159,20 @@ body {
     height: 250px;
     object-fit: cover; 
 }
+.card h3 {
+    padding: 20px 20px 10px;
+}
+
+.card p {
+    padding: 0 20px 20px;
+}
+
+.card button {
+    margin: 0 20px 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer; 
+}
